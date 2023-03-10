@@ -11,8 +11,6 @@ export default class Stage {
 
     this.scaleFactor = this.appWidth/this.targetWidth;
 
-    console.log(this.scaleFactor)
-
 
     this.app = new PIXI.Application({
       autoResize: true,
